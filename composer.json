@@ -1,0 +1,14 @@
+{
+    "name": "f2sfund/face_recognition",
+    "description": "Face Recognition Process",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "F2sFund",
+            "email": "info@f2sfund.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
