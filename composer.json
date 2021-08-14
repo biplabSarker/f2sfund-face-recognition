@@ -1,5 +1,5 @@
 {
-    "name": "f2sfund/aws_face_rekognition",
+    "name": "f2sfund/face_recognition",
     "description": "Face Recognition Process",
     "type": "project",
     "license": "MIT",

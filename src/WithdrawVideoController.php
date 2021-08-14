@@ -1,6 +1,6 @@
 <?php
 
-namespace F2SFund\FaceRekognition;
+namespace f2sfund\face_recognition;
 //require 'vendor/autoload.php';
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;

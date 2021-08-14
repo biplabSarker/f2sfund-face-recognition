@@ -1,6 +1,6 @@
 <?php
 
-namespace F2SFund\FaceRekognition;
+namespace f2sfund\face_recognition;
 
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 use Illuminate\Support\Facades\Storage;

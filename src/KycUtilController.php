@@ -1,7 +1,7 @@
 <?php
 
 
-namespace F2SFund\FaceRekognition;
+namespace f2sfund\face_recognition;
 
 
 class KycUtilController extends ValidationVideoController
