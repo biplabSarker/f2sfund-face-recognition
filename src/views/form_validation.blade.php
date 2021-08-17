@@ -17,12 +17,6 @@
 
 </head>
 <body> -->
-<style>
-    canvas{
-        width:0;
-        height:0;
-    }
-</style>
 @extends( (View::exists('web.master')) ? 'web.master' : 'calculator::kyc')
 @section('content')
     <div class="page-container d-flex">
@@ -38,7 +32,7 @@
                     <div class="col-12 mb-4">
                         <div class="card border-0 w-100 navy-blue-bg">
                             <div class="card-header">
-                                <h5 class="text-capitalize">KYC Face Recognition</h5>
+                                <h5 class="text-capitalize">KYC Face rekognition</h5>
                             </div>
                         </div>
                         <div class="text-center my-4">
@@ -91,8 +85,7 @@
                                 </p>
                                 @if(!$exists)
                                     <h5 class="text-Scooter my-2 error-message text-center" id="guide_message_alert"><strong>N.B.</strong> Please ensure sufficient lighting and bring your face close to the oval face shape on the camera</h5>
-{{--                                    <button onclick="actionRetry()" class="btn btn-blue-1 text-white btn-lg my-3">Go Home</button>--}}
-                                    <a href="{{ url('dashboard') }}" class="btn btn-blue-1 text-white btn-lg my-3">Go Home</a>
+                                    <button onclick="actionRetry()" class="btn btn-blue-1 text-white btn-lg my-3">Go Home</button>
                                 @endif
                                 @if($exists)
                                     <form id="exist_form" method="post" action="/exist-status-submit">
@@ -118,6 +111,6 @@
     <script type="text/javascript" src="{{asset('js/face-api.min.js')}}"></script>
     <script type="text/javascript" src="{{asset('js/face_rekognition.js')}}"></script>
 
-@endsection
+    @endsection
 {{--    </body>--}}
 {{--    </html>--}}

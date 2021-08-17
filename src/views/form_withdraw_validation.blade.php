@@ -17,12 +17,6 @@
 
 </head>
 <body> -->
-<style>
-    canvas{
-        width:0;
-        height:0;
-    }
-</style>
 {{--@extends( (View::exists('layouts.kyc_master')) ? 'layouts.kyc_master' : 'calculator::kyc')--}}
 @extends((View::exists('web.master')) ? 'web.master' : 'calculator::kyc')
 @section('content')
@@ -34,7 +28,7 @@
                     <div class="col-12 mb-4">
                         <div class="card border-0 w-100 navy-blue-bg">
                             <div class="card-header">
-                                <h5 class="text-capitalize">KYC Face Recognition</h5>
+                                <h5 class="text-capitalize">KYC Face rekognition</h5>
                             </div>
                         </div>
                         <div class="text-center my-4">
@@ -71,7 +65,7 @@
                                     Please place your face close to the camera and start the capture
                                 </p>
                                 <h5 class="error-message text-center" id="guide_message_alert"><strong>N.B.</strong> Please ensure sufficient lighting and bring your face close to the oval face shape on the camera</h5>
-                                <button class="btn btn-success btn-lg my-3" id="startbutton" disabled>Capture and Submit</button>
+                                <button class="btn btn-success btn-lg mt-15 mb-15" id="startbutton" disabled>Capture and Submit</button>
                             </div>
                         </div>
                         <input type="hidden" value="{{$user_id}}" name="user_id" id="user_id">

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace f2sfund\face_recognition;
+namespace W3Engineers\FaceRekognition;
 
 
 use App\Http\Controllers\Controller;

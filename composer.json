@@ -1,12 +1,12 @@
 {
-    "name": "f2sfund/face_recognition",
-    "description": "Face Recognition Process",
+    "name": "w3engineers/face_rekognition",
+    "description": "Face Rekognition Process",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
-            "name": "F2sFund",
-            "email": "info@f2sfund.com"
+            "name": "W3-Mimo",
+            "email": "mimosaha@w3engineers.com"
         }
     ],
     "minimum-stability": "dev",

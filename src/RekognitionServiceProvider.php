@@ -1,6 +1,6 @@
 <?php
 
-namespace f2sfund\face_recognition;
+namespace W3Engineers\FaceRekognition;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -13,7 +13,7 @@ class RekognitionServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->make('F2SFund\FaceRekognition\RegistrationVideoController');
+        $this->app->make('W3Engineers\FaceRekognition\RegistrationVideoController');
     }
 
     /**

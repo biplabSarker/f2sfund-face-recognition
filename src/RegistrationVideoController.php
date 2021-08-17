@@ -1,6 +1,6 @@
 <?php
 
-namespace f2sfund\face_recognition;
+namespace W3Engineers\FaceRekognition;
 //require 'vendor/autoload.php';
 use Illuminate\Http\Request;
 
